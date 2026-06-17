@@ -13,8 +13,8 @@ public class DataGenerator {
     private DataGenerator() {
     }
 
-    public static String generateDate(int days) {
-        return  LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    public static String generateDate(int day) {
+        return  LocalDate.now().plusDays(day).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
 
     }
 
